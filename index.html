@@ -26,7 +26,7 @@
 <style>
 @media  (min-width: 1200px) { 
   .t0{    
-    min-height: 60px !important;
+    min-height: 180px !important;
   }
   .t1{    
     min-height: 1041px !important;    
@@ -60,7 +60,7 @@
 
 @media  (max-width: 1201px) { 
   .t0{
-    min-height: calc(100vw * 60 / 1200 ) !important;
+    min-height: calc(100vw * 180 / 1200 ) !important;
   }
   .t1{
     min-height: calc(100vw * 1041 / 1200 ) !important;
@@ -95,67 +95,6 @@
 
 </style>
 <body class="presentation-page bg-gray-200" style="background-color: #fff3db !important;">
-  <!-- Navbar -->
-  <!-- -------- START HEADER 1 w/ text and image on right ------- -->
-  <!-- <div class="container position-sticky z-index-sticky top-0" style="min-width: 100vw;">
-    <div class="row">
-      <div class="col-12">
-        <nav class=" navbar-expand-lg   top-0 z-index-fixed  position-absolute  start-0 end-0" 
-            style="
-            min-width: 90vw;
-            left: 0vw !important;
-            background-color:#fff3db !important;">
-
-          <div class="container-fluid px-0" style="">
-            
-            <div class=" " id="navigation">
-              <ul class="navbar-nav navbar-nav-hover" 
-                  style="justify-content: space-between;
-                  display: flex;">
-                <li class="nav-item">
-                  <a class="nav-link text-black" href="#main">
-                    <img src="./assets//img//head//頁頭-1.png" alt="關於我們">
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-black" href="#story">
-                    <img src="./assets//img//head//頁頭-2.png" alt="交易流程">
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-black" href="#service">
-                    
-                    <img src="./assets//img//head//頁頭-3.png" alt="注意事項">
-                  </a>
-                </li>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-black" href="#contact">
-                    
-                    <img src="./assets//img//head//頁頭-4.png" alt="防範洗錢及詐騙聲明">
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-black" href="#service">
-                    
-                    <img src="./assets//img//head//頁頭-5.png" alt="常見問題">
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-black" href="#service">
-                    
-                    <img src="./assets//img//head//頁頭-6.png" alt="官方QRcode聯絡資訊">
-                  </a>
-                </li>
-              </ul>
-              
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div> -->
-
   <div class="container position-sticky z-index-sticky top-0">
     <div class="row">
       <div class="col-12">
@@ -234,12 +173,12 @@
   <section class="" id="head" style="padding: 0 !important;">
     <div class="t0" 
         style="
-          /*background-image: url(./assets/img/_頁頭-底.jpg);*/
+          /*background-image: url(./assets/img/_headBack.jpg);*/
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center;
           background-color:#fff3db;
-          max-height: 60px !important;" loading="lazy">
+          max-height: 100px !important;" loading="lazy">
 
       <div class="container">
         
@@ -251,7 +190,7 @@
 
       <div class="t1" 
         style="
-          background-image: url(./assets/img/_首頁.jpg);
+          background-image: url(./assets/img/_home.jpg);
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center;
@@ -270,7 +209,7 @@
   <section class="" id="about" style="padding: 0 !important;">
     <div class="t2" 
         style="
-            background-image: url(./assets/img/_關於我們.jpg);
+            background-image: url(./assets/img/_about.jpg);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;            
@@ -286,7 +225,7 @@
   <section class="" id="tradeFlow" style="padding: 0 !important;">
     <div class="t3" 
         style="
-            background-image: url(./assets/img/_交易流程.jpg);
+            background-image: url(./assets/img/_flow.jpg);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;            
@@ -311,8 +250,9 @@
     <div class="container"
             style="display: flex;
             justify-content: center;">
-      <img  src="./assets/img/_加入會員.png" onclick="toJoin()"
-      >
+      <img 
+        style="width: 33vw;
+        height: auto;" src="./assets/img/_joinMember.png" onclick="toJoin()">
     </div>
 
   </section>
@@ -320,7 +260,7 @@
   <section class="" id="attention" style="padding: 0 !important;">
     <div class="t4" 
         style="
-            background-image: url(./assets/img/_注意事項.jpg);
+            background-image: url(./assets/img/_attention.jpg);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;            
@@ -336,7 +276,7 @@
   <section class="" id="term" style="padding: 0 !important;">
     <div class="t5" 
         style="
-            background-image: url(./assets/img/_防範洗錢及詐騙聲明.jpg);
+            background-image: url(./assets/img/_term.jpg);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -351,7 +291,7 @@
   <section class="" id="QA" style="padding: 0 !important;">
     <div class="t6" 
         style="
-            background-image: url(./assets/img/_常見問題.JPG);
+            background-image: url(./assets/img/_QA.jpg);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -369,7 +309,7 @@
       
       <div class="t7" 
           style="
-              background-image: url(./assets/img/_QRC底.jpg);
+              background-image: url(./assets/img/_QRCBack.jpg);
               background-size: cover;
               max-height: 40vh !important;       
               background-color:#731d04;" loading="lazy">    
@@ -392,7 +332,7 @@
     <div class="t8" 
         style="
 
-            background-image: url(./assets/img/_頁尾.jpg);
+            background-image: url(./assets/img/_footer.jpg);
             background-size: cover;
             background-position: center;
             min-height: calc(100vw * 348 / 1200) !important;  
@@ -421,7 +361,7 @@
               style="max-height: 6vh !important;
               max-width: 5vw !important;
               margin-right: 10px;" 
-                src="./assets/img/_CTcoin一頁式-信箱.png">
+                src="./assets/img/_CTcoinEmail.png">
                 <span style="font-size: 3vw; color: white;"> chengtai885@gmail.com </span>
             </a>            
         </div>
@@ -438,7 +378,7 @@
               style="max-height: 5vh !important;
               max-width: 5vw !important;
               margin-right: 10px;"
-                src="./assets/img/_CTcoin一頁式-FB.png">
+                src="./assets/img/_CTcoinFB.png">
                 <span style="font-size: 3vw; color: white;"> facebook / ctcoin2228 </span>
             </a>
            </div>
@@ -455,7 +395,7 @@
               style="max-height: 5vh !important;
               max-width: 5vw !important;
               margin-right: 10px;" 
-                src="./assets/img/_CTcoin一頁式-LINE.png">
+                src="./assets/img/_CTcoinLINE.png">
                 <span style="font-size: 3vw; color: white;"> @ctcoin </span>
              </a>        
         </div>
